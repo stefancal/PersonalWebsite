@@ -1,3 +1,61 @@
+html {
+    scrollbar-gutter: stable;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #d9b99b;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #1b0b98;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #1b0b984a;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    font-family: Alan Sans;
+    font-size: 30px;
+    color: #1b0b98;
+}
+
+h2 {
+    font-family: Alan Sans;
+    font-size: 22px;
+    font-style: italic;
+    color: #1b0b98;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 6px;
+    font-family: Alan Sans;
+    font-size: 16px;
+    color: #1b0b98;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar {
     margin-top: 15px;
     display: flex;
@@ -39,39 +97,14 @@
     width: 20px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about {
+    margin-top: 20px;
+    width: 665px;
+    padding: 20px;
+    text-align: left;
 }
 
-h1 {
-    display: flex;
-    align-items: center;
-    font-family: Alan Sans;
-    font-size: 30px;
-    color: #1b0b98;
-}
-
-h2 {
-    font-family: Alan Sans;
-    font-size: 22px;
-    font-style: italic;
-    color: #1b0b98;
-}
-
-a {
-    text-decoration: none;
-}
-
-p {
-    margin-bottom: 6px;
-    line-height: 1.4
-}
-
-.emoticon {
+.title-icon {
     width: 25px;
     margin-right: 13px;
 }
@@ -86,17 +119,6 @@ p {
     width: 500px;
     padding: 20px;
     text-align: left; 
-}
-
-.contacts h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.contacts p {
-    font-family: Alan Sans;
-    font-size: 16px;
-    color: #1b0b98;
 }
 
 .contacts li {
@@ -122,12 +144,14 @@ p {
 }
 
 .social {
-    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
 .social-img {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
     width: 25px;
 }
 
@@ -138,4 +162,8 @@ p {
     font-family: Alan Sans;
     color: #1b0b98;
     font-style: italic;
+}
+
+.copyright p {
+    margin-top: 5px;
 }
