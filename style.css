@@ -39,7 +39,68 @@
     width: 20px;
 }
 
+.card {
+    width: auto;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #b9be9b;
+    display: flexbox;
+    justify-items: center;
+}
+
+h1 {
+    font-family: Alan Sans;
+    font-size: 30px;
+    color: #1b0b98;
+}
+
+h2 {
+    font-family: Alan Sans;
+    font-size: 18px;
+    font-style: italic;
+    color: #1b0b98;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contacts {
+    display: flexbox;
+    justify-content: center;
+}
+
+.contacts .t1 {
+    font-family: Alan Sans;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1b0b98;
+}
+
+.contacts .t2 {
+    font-family: Alan Sans;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1b0b98;
+}
+
+.contacts ul {
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
 .social {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
