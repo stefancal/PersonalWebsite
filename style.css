@@ -1,5 +1,5 @@
 .navbar {
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     background-color: #ffffff;
@@ -39,16 +39,17 @@
     width: 20px;
 }
 
-.card {
-    width: auto;
-    height: 350px;
-    border-radius: 20px;
-    background-color: #b9be9b;
-    display: flexbox;
-    justify-items: center;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
+    display: flex;
+    align-items: center;
     font-family: Alan Sans;
     font-size: 30px;
     color: #1b0b98;
@@ -56,7 +57,7 @@ h1 {
 
 h2 {
     font-family: Alan Sans;
-    font-size: 18px;
+    font-size: 22px;
     font-style: italic;
     color: #1b0b98;
 }
@@ -65,38 +66,59 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin-bottom: 6px;
+    line-height: 1.4
+}
+
+.emoticon {
+    width: 25px;
+    margin-right: 13px;
+}
+
+.avatar-img {
+    margin-left: 25px;
+    width: 150px;
+}
+
 .contacts {
-    display: flexbox;
-    justify-content: center;
+    margin-top: 20px;
+    width: 500px;
+    padding: 20px;
+    text-align: left; 
 }
 
-.contacts .t1 {
+.contacts h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contacts p {
     font-family: Alan Sans;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 16px;
     color: #1b0b98;
 }
 
-.contacts .t2 {
+.contacts li {
+    padding: 10px;
     font-family: Alan Sans;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 16px;
     color: #1b0b98;
+    display: flex;
+    align-items: center;
 }
 
 .contacts ul {
     list-style: none;
     display: grid;
-    gap: 1rem;
+    gap: 5px;
     padding: 0;
     margin: 0;
 }
 
-li {
-  background: white;
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+.dot-img {
+    width: 8px;
+    margin-right: 10px;
 }
 
 .social {
