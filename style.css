@@ -11,9 +11,9 @@ html {
 }
 
 body {
-  background-color: var(--bg-color);
-  color: var(--t-color);
-  transition: background 0.3s, color 0.3s;
+    background-color: var(--bg-color);
+    color: var(--t-color);
+    transition: background 0.3s, color 0.3s;margin: 0;
 }
 
 body.light-mode {
@@ -275,7 +275,8 @@ p {
 /*  FOOTER   */
 .social {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .social-img {
